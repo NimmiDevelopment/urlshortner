@@ -13,16 +13,3 @@ Convert regular URL to its condensed format
 
 • /application/language/english/en_admin_ lang.php: This file provides language support for the application.
 
-The file structure 
-   application/
-   ├── controllers/
-   │   ├── create.php
-   │   ├── go.php
-   ├── models/
-   │   ├── urls_model.php
-   ├── views/create/
-   │   ├── create.php
-   ├── views/nav/
-   │   ├── top_nav.php
-   ├── language/english/
-       ├── en_admin_lang.php
