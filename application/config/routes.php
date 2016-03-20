@@ -38,8 +38,11 @@
 |
 */
 
-$route['default_controller'] = "welcome";
+$route['default_controller'] = "create";
 $route['404_override'] = '';
+
+$route['create'] = "create/index";
+$route['(:any)'] = "go/index";
 
 
 /* End of file routes.php */
